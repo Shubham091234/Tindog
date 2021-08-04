@@ -3,41 +3,37 @@
 }
 .navbar {
   padding-bottom: 4.5rem;
-}
 
-
-#features{
-  padding: 7% 15%;
-  background-color: #fff;
-}
-.nav-item{
-  padding: 0 18px;
-}
-
-.nav-link{
-  font-size: 1.2rem;
-}
-
-#title{
-  background-color: #ff4c68;
-  color:#fff;
 }
 
 .title-image{
   width:50%;
   transform: rotate(25deg);
-   margin-left: 100px;
+
+margin-left: 100px;
+
 }
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
 
-
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+}
+#title{
+  background-color: #ff4c68;
+  color:#fff;
+}
 .buton{
   margin: 6% 3% 5% 0;
 }
-
 .container-fluid{
   padding: 3% 15%;
 }
-
 body{
   font-family: "Montserrat";
 }
@@ -47,61 +43,43 @@ body{
   color: #ef8172;
   margin-bottom: 1rem;
 }
-
 .icon:hover{
   color: #ff4c68;
 }
-
 #testimonials{
+
   text-align: center;
   background-color: #ef8172;
   color: #fff;
-}
-
-.carousel-item{
+}.carousel-item{
   padding: 7% 15%;
 }
 
 h2{
+
   font-size: 3rem;
 }
-
 .testimonial-image{
   width: 20%;
   border-radius: 100%;
   margin: 20px;
 }
-
 #press {
   background-color: #ef8172;
   text-align: center;
   padding-bottom: 3%;
 }
-
 .press-logo{
   width: 15%;
   margin: 20px 20px 50px;
 }
-
 #pricing{
   padding: 100px;
   text-align: center;
 }
-
 .pricing-column {
   padding: 3% 2%;
 }
-
-#cta{
-  background-color: #ff4c68;
-  text-align:center;
-padding:7% 15%;
-color: #fff;
-font-family: "Poppins", sans-serif;}
-}
-
-
-
 @media (max-width :991px) {
   #title{
     text-align: center;
@@ -111,4 +89,12 @@ font-family: "Poppins", sans-serif;}
     transform: rotate(0);
 
   }
+}
+#cta{
+  background-color: #ff4c68;
+  text-align:center;
+padding:7% 15%;
+color: #fff;
+font-family: "Poppins", sans-serif;}
+
 }
